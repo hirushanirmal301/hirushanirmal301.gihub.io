@@ -1,0 +1,36 @@
+body{
+    background-image: url(../img/R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.voice{
+    
+    margin: 320px 600px 0px 600px;
+    text-align: center;
+    padding: 100px 0px;
+    backdrop-filter:blur(18px);
+    border:solid 1px white;
+    border-radius: 10px;
+}
+
+.voice textarea{
+    outline: none;
+    border: none;
+    float: left;
+    margin-left: 20px;
+}
+
+.voice button{
+
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color:rgb(43,34,65);
+    box-shadow: none;
+    border: none;
+}
+
+.voice button:hover{
+    border: solid 1px white;
+}
